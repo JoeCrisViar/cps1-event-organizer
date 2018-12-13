@@ -1,0 +1,119 @@
+/*Header Styles*/
+.header{
+    text-align:center;
+    background:url(../img/bg1.png) left top repeat;
+    padding:200px 0;
+}
+
+.subtitle{
+    padding:0;
+    margin:35px 0 55px;
+}
+
+.subtitle li{
+    display:inline-block;
+    font-family: 'Montserrat',sans-serif;
+    font-size:14px;
+    color: #bcbcbc;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin:0 5px 0 0;
+    padding:0 0 0 15px;
+}
+
+.subtitle li:first-child{
+    background:none;
+}
+
+.logo{
+    width:130px;
+    margin:0 auto 35px;
+}
+.header h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size:50px;
+    font-weight:400;
+    letter-spacing: -1px;
+    margin:0 0 22px 0 ;
+    color:#fff;
+}
+
+
+.wp-pic{
+    margin-bottom:20px;
+}
+
+.link{
+    padding:15px 35px;
+    background:#7cc576;
+    color:#fff !important;
+    font-size:16px;
+    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+    display:inline-block;
+    border-radius:3px;
+    text-transform:uppercase;
+    line-height:25px;
+    margin-bottom:20px;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+.link:hover {
+    text-decoration:none;
+    color:#7cc576 !important;
+    background:#fff;
+}
+
+.link:active, .link:focus {
+    background: #7cc576;
+    text-decoration:none;
+    color:#fff !important;
+}
+
+#btn-index{ margin-top: 20px; }
+/*End Header Styles*/
+
+
+
+/*
+.logo{
+    color: rgba(252,239,139,1);
+    border: 1px solid rgba(252,239,139,1);
+    height:250px;
+    width: 250px;
+    padding-top: 40px;
+    padding-left: 10px; 
+    border-radius: 50%;
+    margin: 0px 0 20px 0;
+    
+}*/
+
+/*.logo h1{
+    font-size: 10em;
+}
+*/
+
+.nav-link {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin: 12px 27px;
+ }  
+ .nav-link:hover { 
+    color: black;
+    background-color: whitesmoke;
+    
+}
+
+.logo-link:link, .logo-link:hover{
+    color: rgba(252,239,139,1);
+    text-decoration: none;
+}
+
+
+.oi{
+    margin-right: 10px;
+    }
+
+
