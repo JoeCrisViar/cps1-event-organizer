@@ -51,6 +51,7 @@ body {
 	font-weight:normal;
 	color:#888888;
 	margin:0;
+	
 }
 h2{
 	font-size:34px;
@@ -90,7 +91,6 @@ p{
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
 	background:black;
-	opacity: 0.8;
 }
 .main-nav{
 	text-align:center;
@@ -103,10 +103,11 @@ p{
 	margin:0 1px;
 }
 .main-nav li a{
+	font-size: 2rem;
 	display:inline-block;
 	color:wheat;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Monoton', cursive;
 	text-decoration: none;
 	line-height:20px;
 	margin:17px 32px;
@@ -117,7 +118,7 @@ p{
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	color: goldenrod;
 }
 
 .small-logo{ 
@@ -670,8 +671,8 @@ border: 2px solid #fff;
 
 .footer{
 	background:black;
-	padding:35px 0 35px;
-	opacity: 0.8;
+	padding:0 35px;
+
 }
 .footer-logo{
 	margin:15px auto 35px;
@@ -713,7 +714,7 @@ border: 2px solid #fff;
 }
 
 .res-nav_click:hover, .res-nav_click:active, .res-nav_click:focus {
-	color: #7cc576 !important;
+	color: goldenrod !important;
 }
 
 .portfolioContainer{
