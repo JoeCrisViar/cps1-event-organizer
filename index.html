@@ -18,6 +18,10 @@
 	<link href="assets/css/animate.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/main-landing.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<!-- Featured CSS -->
+	<link rel="stylesheet" href="assets/css/outline-image/baguetteBox.min.css">
+	<link rel="stylesheet" href="assets/css/outline-image/featured/fluid-gallery.css" type="text/css">
+	
 
 </head>
 
@@ -25,35 +29,33 @@
 	<header class="header" id="header">
 		<!--header-start-->
 		<div class="container">
-			<figure class="logo animated fadeInDown delay-07s">
-				<a href="#"><img src="assets/img/jsj-logo.png" alt=""></a>
-			</figure>
-			<h1 class="animated fadeInUp delay-07s">We Just Serve Joyful</h1>
-			<ul class="subtitle animated fadeInDown delay-1s">
-				<li>We are a service company that serves in all occation.</li>
-			</ul>
-			<a class="btn btn-light btn-lg animated fadeInUp delay-1s servicelink" id="btn-index"href="portfolio/index.html">To Portfolio</a>
-			<a class="btn btn-light btn-lg animated fadeInUp delay-1s servicelink" id="btn-index" href="home.html">Go Home</a>
+			<div class="row">
+				<div class="col-lg-12">
+					<figure class="logo animated bounceIn delay-07s">
+						<a href="#"><img src="assets/img/jsj-logo.png" alt=""></a>
+					</figure>
+					<h1 class="animated fadeInUp delay-07s">We Just Serve Joyful</h1>
+					<ul class="subtitle animated fadeInDown delay-1s">
+						<li>We are a service company that serves in all occation.</li>
+					</ul>
+					
+				</div>
+				
+			</div>
+			<div class="row">
+					<div class="col-lg-12">
+							<a class="btn btn-light btn-lg animated fadeInUp delay-1s servicelink" id="btn-index"href="portfolio/index.html">To Portfolio</a>
+							<a class="btn btn-light btn-lg animated fadeInUp delay-1s servicelink" id="btn-index" href="home.html">Go Home</a>
+					</div>
+			</div>
 		</div>
 	</header>
-	<nav class="main-nav-outer" id="test">
-		<!--nav-start-->
-		<div class="container">
-			<ul class="main-nav">
-				<li><a href="home.html">Home</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-				<li class="small-logo wow fadeInDown delay-03s"><a href="home.html"><img src="assets/img/jsj-nav-logo.png" alt="JSJ Logo" id="logo"></a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-			<a class="res-nav_click" href="#"><span class="oi oi-menu"></span></a>
-		</div>
-	</nav>
-	
 
 	<!--header-end-->
 
-	
+	<script type="text/javascript" src="assets/js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap/popper.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.1.8.3.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-scrolltofixed.js"></script>
@@ -62,9 +64,12 @@
 	<script type="text/javascript" src="assets/js/wow.js"></script>
 	<script type="text/javascript" src="assets/js/classie.js"></script>
 	<script type="text/javascript" src="assets/js/magnific-popup.js"></script>
+	<!-- Gallery JS -->
+	<script src="assets/js/gallery/baguetteBox.min.js"></script>
 
-
-
+	<script>
+		baguetteBox.run('.tz-gallery');
+	</script>
 	<script type="text/javascript">
 		$(document).ready(function(e) {
 
