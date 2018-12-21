@@ -164,3 +164,9 @@
 #icon-padding{
     padding-right: 10px;
 }
+
+#jsj-event h1{
+    margin: 50px;
+    font-family: 'Monoton', cursive;
+    color:  rgb(201, 171, 5);
+}
