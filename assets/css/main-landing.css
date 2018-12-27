@@ -135,16 +135,14 @@
 }
 
 #logo{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
+    padding: 0;
+    margin: 0;
 }
 
-/* .small-logo{
-    height: 60px;
-    background: black;
-    border: 1px solid white;
-    border-radius: 50%;
-} */
+
+
 
 #jsj-event{
     margin-top: 20px;
@@ -171,3 +169,11 @@
     color:  rgb(201, 171, 5);
 }
 
+.thumbnail{
+    overflow:hidden; 
+    height: 200px;
+}
+
+.thumbnail:hover{
+    transform: scale(1.02);
+}
