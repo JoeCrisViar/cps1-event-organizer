@@ -1897,8 +1897,8 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
-  .mapouter{text-align:right;height:200px;width:300px; margin-top: 10px;}
-  .gmap_canvas {overflow:hidden;background:none!important;height:164px;width:320px;}
+  /* .mapouter{text-align:right;height:200px;width:300px; margin-top: 10px;}
+  .gmap_canvas {overflow:hidden;background:none!important;height:164px;width:320px;} */
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1912,8 +1912,7 @@ pre code {
 }
 
 @media (max-width: 767.98px) {
-  .mapouter{text-align:right;height:300px;width:260px;}
-  .gmap_canvas {overflow:hidden;background:none!important;height:200px;width:260px; border-radius: 10%;}
+
   .table-responsive-md {
     display: block;
     width: 100%;

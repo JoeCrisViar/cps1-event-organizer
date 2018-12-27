@@ -225,6 +225,23 @@
 		baguetteBox.run('.tz-gallery');
 	</script>
 
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+
+			$('#test').scrollToFixed();
+			$('.res-nav_click').click(function() {
+				$('.main-nav').slideToggle();
+				return false
+
+			});
+
+	$('.Portfolio-box').magnificPopup({
+		delegate: 'a',
+		type: 'image'
+	});
+
+		});
+	</script>
 
 	<script>
 		wow = new WOW({
